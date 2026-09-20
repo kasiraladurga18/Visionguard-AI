@@ -1,0 +1,14 @@
+{
+  "name": "vision-guard-appium-tests",
+  "version": "1.0.0",
+  "description": "Comprehensive Appium Mobile E2E Automation Suite & Excel Reporter for VisionGuard AI Android App",
+  "main": "tests/app-tests.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node tests/app-tests.js"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "webdriverio": "^8.32.0"
+  }
+}

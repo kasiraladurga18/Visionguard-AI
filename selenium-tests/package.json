@@ -1,0 +1,14 @@
+{
+  "name": "vision-guard-selenium-tests",
+  "version": "1.0.0",
+  "description": "Comprehensive Selenium E2E Test Suite and Excel Reporter for VisionGuard AI Web Application",
+  "main": "tests/login-tests.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node tests/login-tests.js"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "selenium-webdriver": "^4.18.1"
+  }
+}

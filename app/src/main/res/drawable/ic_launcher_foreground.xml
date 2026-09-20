@@ -1,0 +1,71 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer Eye Contours within 66dp safe zone (X: 24 to 84, Y: 32 to 76) -->
+    <path
+        android:pathData="M26,54 C34,40 44,34 54,34 C64,34 74,40 82,54 C74,68 64,74 54,74 C44,74 34,68 26,54 Z"
+        android:strokeWidth="4"
+        android:strokeColor="#60A5FA"
+        android:fillColor="#00000000"
+        android:strokeLineCap="round" />
+
+    <!-- Iris Circle -->
+    <path
+        android:pathData="M54,42 A12,12 0 1,0 54,66 A12,12 0 1,0 54,42"
+        android:strokeWidth="3.5"
+        android:strokeColor="#38BDF8"
+        android:fillColor="#00000000" />
+
+    <!-- Center Pupil Lens with AI Glow -->
+    <path
+        android:pathData="M54,48 A6,6 0 1,0 54,60 A6,6 0 1,0 54,48">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="48"
+                android:startY="48"
+                android:endX="60"
+                android:endY="60"
+                android:type="linear">
+                <item android:color="#F59E0B" android:offset="0.0" />
+                <item android:color="#FBBF24" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Top Focus Reticle Mark -->
+    <path
+        android:pathData="M54,26 L54,30"
+        android:strokeWidth="3"
+        android:strokeColor="#38BDF8"
+        android:strokeLineCap="round" />
+
+    <!-- Bottom Focus Reticle Mark -->
+    <path
+        android:pathData="M54,78 L54,82"
+        android:strokeWidth="3"
+        android:strokeColor="#38BDF8"
+        android:strokeLineCap="round" />
+
+    <!-- Left Focus Reticle Mark -->
+    <path
+        android:pathData="M20,54 L24,54"
+        android:strokeWidth="3"
+        android:strokeColor="#38BDF8"
+        android:strokeLineCap="round" />
+
+    <!-- Right Focus Reticle Mark -->
+    <path
+        android:pathData="M84,54 L88,54"
+        android:strokeWidth="3"
+        android:strokeColor="#38BDF8"
+        android:strokeLineCap="round" />
+
+    <!-- AI Neural Sparkle -->
+    <path
+        android:pathData="M70,36 L72,40 L76,42 L72,44 L70,48 L68,44 L64,42 L68,40 Z"
+        android:fillColor="#FBBF24" />
+</vector>

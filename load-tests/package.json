@@ -1,0 +1,14 @@
+{
+  "name": "vision-guard-load-tests",
+  "version": "1.0.0",
+  "description": "Baseline & High-Throughput Load Test Suite for VisionGuard AI System (100 Concurrent Virtual Users, 60s Duration)",
+  "main": "load-test.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node load-test.js"
+  },
+  "dependencies": {
+    "autocannon": "^7.15.0",
+    "exceljs": "^4.4.0"
+  }
+}
